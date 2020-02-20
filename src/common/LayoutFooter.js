@@ -40,9 +40,9 @@ function LayoutFooter() {
   return (
     <div className={s.root}>
       <Typography className={s.text}>
-        <span className={s.copyright}>&copy; 2015-present</span>
-        <a className={s.link} href="https://github.com/kriasoft">
-          Kriasoft
+        <span className={s.copyright}>&copy; 2020-Present</span>
+        <a className={s.link} href="https://www.silverlightdev.co.uk">
+          R and H Hill Ltd
         </a>
         <span className={s.separator}>|</span>
         <Link className={s.link} href="/about">

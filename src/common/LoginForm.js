@@ -9,6 +9,7 @@ import PropTypes from 'prop-types';
 import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
+import LoginLocal from '../user/LoginLocal';
 
 import GoogleIcon from '../icons/Google';
 import FacebookIcon from '../icons/Facebook';
@@ -57,6 +58,9 @@ function LoginForm(props) {
             {React.createElement(x.icon)}
           </Button>
         ))}
+      </Typography>
+      <Typography>
+        <LoginLocal />
       </Typography>
     </div>
   );

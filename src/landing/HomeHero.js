@@ -8,8 +8,6 @@ import React from 'react';
 import Typography from '@material-ui/core/Typography';
 import { makeStyles } from '@material-ui/core/styles';
 
-import LoginButton from '../common/LoginButton';
-
 const useStyles = makeStyles(theme => ({
   root: {
     ...theme.mixins.content,
@@ -21,6 +19,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
   title: {
+    textAlign: 'center',
     paddingBottom: '1rem',
     fontWeight: 300,
     fontSize: '1.75rem',
@@ -30,6 +29,7 @@ const useStyles = makeStyles(theme => ({
     },
   },
   subTitle: {
+    textAlign: 'center',
     paddingBottom: '1rem',
     color: theme.palette.common.white,
     fontWeight: 300,
@@ -56,15 +56,11 @@ function HomeHero() {
   return (
     <div className={s.root}>
       <Typography className={s.title} variant="h3">
-        Flying start for makers
+        Configure your Tesla PowerWall&trade;
       </Typography>
       <Typography className={s.subTitle} variant="h5">
-        Quickly bootstrap new web application projects on a solid
-        JavaScript-based tech stack and serverless architecture
+        An easy to use portal for configuring your Tesla PowerWall
       </Typography>
-      <div className={s.actions}>
-        <LoginButton className={s.button} provider="google" />
-      </div>
     </div>
   );
 }

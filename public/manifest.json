@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "React Starter Kit for Firebase",
+  "short_name": "PowerWall Configurator",
+  "name": "Tesla PowerWall Configurator",
   "icons": [
     {
       "src": "favicon.ico",
